@@ -24,6 +24,7 @@
             nativeBuildInputs = [
               pkgs.zls
               pkgs.zig
+              pkgs.bitcoin
               config.pre-commit.settings.enabledPackages
             ];
             shellHook = ''
